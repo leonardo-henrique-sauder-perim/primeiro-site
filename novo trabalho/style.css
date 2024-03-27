@@ -18,6 +18,7 @@ main{
     grid-area: pri;
     background-color: deeppink;
 }
+
 footer{
     grid-area: rod;
     background-color: brown;
