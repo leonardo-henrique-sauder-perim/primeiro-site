@@ -1,0 +1,62 @@
+body{
+    background-color: chartreuse;
+    display: grid;
+    grid-template-areas: 
+    "cab cab cab"
+    "asa pri pri"
+    "rod rod rod";
+    grid-template-columns: 200px auto auto;
+    grid-template-rows: auto auto auto ;
+}
+
+
+header{
+    background-color: blue;
+    grid-area: cab;
+ }
+.pinga{
+    width: 280px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+main{
+    grid-area: pri;
+    background-color: deeppink;
+}
+header h1{
+    width: 20px;
+    margin-top: 200px;
+    margi
+}
+footer{
+    grid-area: rod;
+    background-color: brown;
+}
+aside{ 
+    grid-area: asa;
+    background-color: blueviolet;
+}
+
+.caixamae{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    border: 2px red solid;
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    text-align: center;
+}
+
+.card img{
+    width: 180px;
+}
