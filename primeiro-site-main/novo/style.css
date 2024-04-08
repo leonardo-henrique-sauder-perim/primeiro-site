@@ -13,22 +13,16 @@ body{
 header{
     background-color: blue;
     grid-area: cab;
- }
-.pinga{
-    width: 280px;
-    margin-top: 20px;
-    margin-left: 20px;
-
+}
+.a{
+    width: 300px;
+    height: 300px;
 }
 main{
     grid-area: pri;
     background-color: deeppink;
 }
-header h1{
-    width: 20px;
-    margin-top: 200px;
-    margi
-}
+
 footer{
     grid-area: rod;
     background-color: brown;
@@ -54,9 +48,22 @@ aside{
     justify-content: center;
     align-items: center;
     margin: 30px;
-    text-align: center;
 }
 
 .card img{
     width: 180px;
+}
+.card1{
+
+    border: 2px red solid;
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+.h11{
+    align-items: center;
 }
