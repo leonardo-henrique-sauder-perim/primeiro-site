@@ -11,22 +11,33 @@ body{
 
 
 header{
-    background-color: blue;
+    background-color: rgb(245, 232, 216);
     grid-area: cab;
 }
 .a{
     width: 300px;
     height: 300px;
 }
+.b{
+    position:absolute;
+    right: 10px;
+    left: 850px;
+    top: 120px;
+    bottom: 10px;
+    width: 900px;
+    
+
+
+}
 main{
     grid-area: pri;
-    background-color: deeppink;
+    background-color: greenyellow;
 }
 
 footer{
     grid-area: rod;
-    background-color: brown;
-}
+    background-color: rgb(46, 0, 211);
+} 
 aside{ 
     grid-area: asa;
     background-color: blueviolet;
@@ -40,7 +51,7 @@ aside{
 }
 
 .card{
-    border: 2px red solid;
+    border: 2px rgb(240, 21, 185) solid;
     height: 500px;
     width: 400px;
     display: flex;
@@ -65,5 +76,6 @@ aside{
     margin: 30px;
 }
 .h11{
-    align-items: center;
+    width: 30px;
+    height: 20px;
 }
