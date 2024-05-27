@@ -1,0 +1,19 @@
+body{
+    background-color: chartreuse;
+    display: grid;
+    grid-template-areas: 
+    "cab cab cab"
+    "asa pri pri"
+    "rod rod rod";
+    grid-template-columns: 200px auto auto;
+    grid-template-rows: auto auto auto ;
+}
+
+.imag{
+    width: 100px;
+    
+
+
+}
+ 
+
