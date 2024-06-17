@@ -99,4 +99,35 @@ aside{
     height: 30px;
     width: 100px;
 }
+.menuimg{
+    width:30px;
+}
+.iconf{
+    width:30px;
+}
+main ul{
+    pading:0%;
+}
+#red nav{
+    background-color:green;
+    border-radius: 20px;
+    width: 60px;
+    height: 1650px;
+    position: inherit;
+}
+#red li{
+    color: #629280;
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+#red li > a{
+    color: #629280;
+    text-decoration: none;
+}> span{t
+
+
+}
+
+
  
