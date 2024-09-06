@@ -1,0 +1,112 @@
+/* grid cadastro */
+body{
+    display: grid;
+    gap: 15px;
+    grid-template-areas:  
+    "principal principal principal"
+    "principal principal principal"
+    "principal principal principal";
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto auto  auto auto;
+
+ }
+/* fim grid */
+
+/* ajuste background */
+ body{
+    background-color: green;
+    height: 100%;
+    width: 100%;
+ }
+/* fim de ajuste background  */
+
+/* começo responsividade */
+@media only screen and  (max-width:400px ){
+   body{
+    grid-template-areas: 
+    "principal"
+    "principal"
+    "principal"
+    "principal";
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto auto;
+    
+    }
+}
+/* fim responsivdade */
+
+/* começo botao confirmaçao */
+body  a{
+    text-decoration: none;
+    background-color: black;
+    color: blanchedalmond;
+    font-family:   Arial, sans-serif;
+    font-size:x-large;
+    align-items: center;
+    position: relative;
+    right: 5%;
+    bottom: 10px; 
+}
+
+/* fim botao confirmaçao */
+
+/* começo div */
+body div{
+    height: 500px;
+    width: 500px;
+    position: relative;
+    right: 30%;
+    top: 40%;
+    background-color: beige; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top: 30%;
+    border-radius: 20px;
+
+}
+
+/* fim da div */
+/* começo campos de cadastro */
+input{
+    margin: 8px;
+    position: relative;
+    top: 5%;
+    width: 300px;
+    height: 20px;
+}
+
+/* fim dos campos */
+/* ajuste images */
+
+.paleta{
+    position: relative;
+    right: 300px;
+    top: 60px;
+    width: 600px;
+}
+/* fim ajuste de imagem */
+/* começo checkbox */
+
+.confirmação{
+   font-size: small;
+   position: relative;
+   top: 30px;
+   right: 100px;
+   padding: 2px;
+   margin-left: 1%;
+}
+
+p{
+   position: relative;
+   bottom: 15px;
+}
+/* fim checkbox */
+
+/* titulo */
+h3{
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(102, 102, 101);
+}
+/* fim titulo */
